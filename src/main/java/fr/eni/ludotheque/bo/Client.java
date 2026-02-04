@@ -2,9 +2,13 @@ package fr.eni.ludotheque.bo;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.jspecify.annotations.NonNull;
 
 @Data
+@NoArgsConstructor
+@RequiredArgsConstructor
 @Entity
 @Table(name = "Clients")
 public class Client {
@@ -23,10 +27,7 @@ public class Client {
     private String adresseMail;
     @Column(nullable = false, length = 10, unique = true)
     @NonNull
-    private int telephone;
+    private String telephone;
 
-    public Client() {
-
-    }
 }
 
