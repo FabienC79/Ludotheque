@@ -10,27 +10,20 @@ import org.jspecify.annotations.NonNull;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @Entity
-@Table(name = "Clients")
-public class Client {
+@Table(name = "Adresses")
+public class Adresse {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
     @Column(nullable = false, length = 50)
     @NonNull
-    private String nom;
+    private String rue;
     @Column(nullable = false, length = 50)
     @NonNull
-    private String prenom;
+    private String codePostal;
     @Column(nullable = false, length = 50)
     @NonNull
-    private String adresseMail;
-    @Column(nullable = false, length = 10, unique = true)
-    @NonNull
-    private String telephone;
-    @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "adresse_id")
-    private Adresse adresse;
+    private String ville;
 
 }
-
