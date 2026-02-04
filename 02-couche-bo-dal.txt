@@ -1,0 +1,37 @@
+﻿-- ITERATION 01 --
+
+S1001 Créer le projet ludotheque; configurer le build gradle avec lombok, SpringDataJpa et le driver de base de données.
+
+S1002 Créer la BO Client  
+
+S1003 configurer le application.yml pour accéder à la BD LUDO_DB
+
+S1004 Couche DAL JPA - Gérer l'entité Client 
+-- Faire un test d'ajout d'un client 
+
+S1005 Créer la BO Adresse 
+
+S1006 Créer le dépot Git et synchroniser avec GitHub
+
+[Consigne : chaque développement de story se fera dans une branche spécifique portant le nom de la story ]
+
+S1007 créer le projet GitHub associé au dépôt 
+
+
+S1008 Couche DAL JPA - Gérer l'entité Client et Adresse (One to One) 
+-- Modifier le test d'ajout du client pour tester l'ajout client et adresse
+
+S1009 Couche DAL JPA : Gérer les Jeux 
+
+S1010 Couche DAL : Gérer les genres
+-- Test d'ajout d'un genre
+
+S1011 Couche DAL : Gérer le lien entre Jeux et genres
+-- Faire un test d'ajout d'un Jeu lié à plusieurs genres
+
+S1012 Couche DAL JPA : Gérer les exemplaires
+-- Faire un test d'ajout d'exemplaire
+
+S1013 Créer et utiliser un utilisateur de base de données spécifique pour l'application ludotheque (LUDO_USER/LUDO_PWD) 
+
+
