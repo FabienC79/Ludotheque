@@ -4,8 +4,8 @@ spring:
 
   datasource:
     url: jdbc:sqlserver://localhost;databasename=LUDO_DB;encrypt=false
-    username: sa
-    password: "Pa$$w0rd"
+    username: LUDO_USER
+    password: "LUDO_PWD"
 
   jpa:
     show-sql: true
