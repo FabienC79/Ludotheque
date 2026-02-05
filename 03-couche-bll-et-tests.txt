@@ -1,0 +1,38 @@
+-- ITERATION 02 : mise en place la BLL et tests --
+
+S2008 - Couche BLL : ajouter un client et son adresse
+-- Test positif d'ajout d'un client 
+
+S2009 - Couche BLL : trouver les clients dont le nom commence par la chaine fournie
+
+S2010 - Couche BLL : Modification complète d'un client 
+Les informations du client et de son adresse sont modifiées
++ 2 Tests d'intégration (BLL + DAL ) : 1) cas positif 2) cas client non trouvé
+
+S2011 - Couche BLL : Modifier uniquement l'adresse d'un client
++ Tests de la modification des champs de l'adresse 
+
+S2012 - Couche BLL : ajout d'un jeu (et des liens vers les genres)
++ Tests 
+
+[--------------------Optionnel-------------------------------]
+
+S2013 - Couche BLL : Créer une location (<=> Sortir un exemplaire )
++ Tests 
+
+S2014 - Couche BLL : Consulter la liste des jeux disponibles à la location
+[   - le nombre d'exemplaire(s) disponibles de chaque jeu doit être indiqué ]
+[- il doit être possible de filtrer par titre (contient) et/ou par genres ]
++ Tests 
+
+
+S2015 - Création de la facture lors du retour d'exemplaires
+
+S2016 - Couche BLL : Marquer la facture comme payée
++ Tests
+
+S2017 - Couche BLL : Modifier l'état d'un exemplaire
++ Tests
+
+
+
