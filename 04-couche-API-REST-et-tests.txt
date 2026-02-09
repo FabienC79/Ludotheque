@@ -1,0 +1,35 @@
+--ITERATION 3 --
+
+S3019 - API REST pour : ajouter un client
+
+S3020 - API REST pour supprimer un client
+
+S3021 - API REST pour modifier un client complètement (infos du client et adresse)
+
+S3022 - API REST pour modifier uniquement l'adresse du client 
+
+S3023 - API REST pour trouver les clients dont le nom commence par la chaine fournie
+
+S3024 - API REST pour trouver un client par id
+
+S3025 - API REST pour trouver les jeux et pour chaque jeux le nombre d'exemplaires disponible
+( c'est dire louable et non loué au moment de la recherche )
+[ 
+
+S3026 - recherche des informations d'un exemplaire connaissant le codebarre (codebarre scanné par l'employé)
+2 Tests : cas positif : le codebarre est connu / cas négatif : le codebarre est inconnu
+
+S3027 - API REST pour enregistrer une nouvelle location depuis le scan du codebarre exemplaire
+
+S3028 - API REST pour enregistrer le retour d'une ou plusieurs locations et générer la facture
+(En tant qu'employe, je  peux scanner un ou plusieurs codebarres d'exemplaires, enregistrer 
+le retour et générer la facture )
+
+
+[ ------- Optionnel ---------------]
+S3029 - Pour la liste des jeux et le nombre d'exemplaire disponible par jeu : utiliser une fonction stockée
+S3030 - relancer un client
+S3031 - ajouter un exemplaire au fond de jeux
+
+ 
+ 
