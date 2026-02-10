@@ -48,6 +48,9 @@ public class Jeu {
     )
     private List<Genre> genres = new ArrayList<>();
 
+    @OneToMany(mappedBy = "jeu", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<Exemplaire> exemplaires = new ArrayList<>();
+
     public void addGenre(Genre genre) {
         genres.add(genre);
     }
